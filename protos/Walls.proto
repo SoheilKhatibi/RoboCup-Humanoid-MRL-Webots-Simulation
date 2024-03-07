@@ -1,0 +1,161 @@
+#VRML_SIM R2023b utf8
+# Walls for the Kid Size HSL Field (9 m * 6 m)
+# Author: Yvan Bourquin - www.cyberbotics.com
+# Date: Oct 28, 2009
+#
+# March 7, 2024: Update to VRML_SIM R2023b and test, by Soheil Khatibi
+
+PROTO Walls [
+  field SFColor color 1 1 1
+  field SFBool locked TRUE
+  field SFString name ""
+]
+{
+Solid {
+  name IS name
+  children [
+    DEF WALL_OUTSIDE Shape {
+      appearance Appearance {
+        material DEF WALL_MATERIAL Material {
+          diffuseColor IS color
+        }
+        texture ImageTexture {
+          url [
+            "textures/MrlHsl_logo.png"
+          ]
+        }
+        textureTransform TextureTransform { 
+          scale 5 1
+        }
+      }
+      geometry IndexedFaceSet {
+        coord DEF WALL_COORDS Coordinate {
+          point [
+           5.23 3.73 0
+           5.2 3.7 0
+           -5.23 3.73 0
+           -5.2 3.7 0
+           5.23 -3.73 0
+           5.2 -3.7 0
+           -5.23 -3.73 0
+           -5.20 -3.7 0
+           5.23 3.73 0.3
+           5.2 3.7 0.3
+           -5.23 3.73 0.3
+           -5.2 3.7 0.3
+           5.23 -3.73 0.3
+           5.2 -3.7 0.3
+           -5.23 -3.73 0.3
+           -5.2 -3.7 0.3
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            1 1
+            0 1
+          ]
+        }
+        coordIndex [
+          4, 6, 14, 12, -1,
+          2, 0, 8, 10, -1,
+          6, 2, 10, 14, -1,
+          0, 4, 12, 8, -1,
+          9, 11, 10, 8, -1,
+          15, 13, 12, 14, -1,
+          11, 15, 14, 10, -1,
+          9, 8, 12, 13, -1
+        ]
+        texCoordIndex [
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1
+        ]
+      }
+    }
+    DEF WALL_INSIDE Shape {
+      appearance Appearance {
+        material USE WALL_MATERIAL
+        texture ImageTexture {
+          url [
+            "textures/MrlHsl_logo.png"
+          ]
+        }
+        textureTransform TextureTransform { 
+          scale 5 1
+        }
+      }
+      geometry IndexedFaceSet {
+        coord USE WALL_COORDS
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            1 1
+            0 1
+          ]
+        }
+        coordIndex [
+          1, 3, 11, 9, -1,
+          7, 5, 13, 15, -1,
+          3, 7, 15, 11, -1,
+          5, 1, 9, 13, -1
+        ]
+        texCoordIndex [
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1,
+          0, 1, 2, 3, -1
+        ]
+      }
+    }
+  ]
+  # boundingObject Group {
+  #   children [
+  #     Transform {
+  #       rotation 0 1 0 1.5708
+  #       translation 5.2 0 0.15
+  #       children [
+  #         Plane {
+  #           size 0.3 7.4
+  #         }
+  #       ]
+  #     }
+  #     Transform {
+  #       rotation 0 1 0 1.5708
+  #       translation -5.2 0 0.15
+  #       children [
+  #         Plane {
+  #           size 0.3 7.4
+  #         }
+  #       ]
+  #     }
+  #     Transform {
+  #       rotation 1 0 0 1.5708
+  #       translation 0 3.7 0.15
+  #       children [
+  #         Plane {
+  #           size 10.4 0.3
+  #         }
+  #       ]
+  #     }
+  #     Transform {
+  #       rotation 1 0 0 1.5708
+  #       translation 0 -3.7 0.15
+  #       children [
+  #         Plane {
+  #           size 10.4 0.3
+  #         }
+  #       ]
+  #     }
+  #   ]
+  # }
+  locked IS locked
+}
+}

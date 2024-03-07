@@ -1,0 +1,40 @@
+#VRML_SIM R2023b utf8
+# January 5, 2017: Modify the original version of Darwin-op.proto of the Webots Repository to simulate MRL-HSL robot, by Hamed Mahmudi
+# March 7, 2024: Update to VRML_SIM R2023b and test, by Soheil Khatibi
+
+PROTO MRL-HSLCameraShape [
+]
+{
+    Group {
+        children [
+            Shape {
+                appearance Appearance {
+                    material DEF DCameraMaterial Material {
+                        diffuseColor 0 0 0
+                        specularColor 0.401201 0.401201 0.401201
+                    }
+                }
+                geometry IndexedFaceSet {
+                    coord Coordinate {
+                        point [
+                            0.001624 -0.00129 0.000645 0.00098 -0.00129 -0.001853
+                            0.00098 0.00129 -0.001853 0.001624 0.00129 0.000645
+                            -0.000121 -0.003093 0.001096 -0.000766 -0.003093 -0.001403
+                            -0.001216 -0.00129 -0.003148 -0.001216 0.00129 -0.003148
+                            -0.000766 0.003093 -0.001403 -0.000121 0.003093 0.001096
+                            0.000329 -0.00129 0.002841 0.000329 0.00129 0.002841
+                        ]
+                    }
+                    coordIndex [
+                        0 10 4 -1 1 5 6 -1 2 7 8 -1
+                        3 9 11 -1 9 3 2 -1 9 2 8 -1
+                        10 0 3 -1 10 3 11 -1 7 2 1 -1
+                        7 1 6 -1 0 4 5 -1 0 5 1 -1
+                        0 1 2 -1 0 2 3 -1
+                    ]
+                    creaseAngle 0.2
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "../protos/MRL-HSL.proto"
+EXTERNPROTO "../protos/BallGPS.proto"
+EXTERNPROTO "../protos/KidGoal.proto"
+EXTERNPROTO "../protos/KidSoccerField.proto"
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "../protos/Walls.proto"
+
+WorldInfo {
+  info [
+    "Simulation of the Robocup Standard Platform League"
+    "Authors: Olivier Michel, Yvan Bourquin, Fabien Rohrer"
+    "Webpage: http://www.robotstadium.org"
+  ]
+  title "MRL-HSL"
+}
+Viewpoint {
+  orientation -0.22606134590697893 0.21369007506390542 0.9503856163189275 1.67775893302981
+  position 1.9144091917668151 -17.852278836497508 9.199676816400789
+  follow "Yellow"
+}
+Background {
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+DEF YELLOW_GOAL KidGoal {
+  translation 4.5 0 0
+  rotation 0 0 1 1.5707996938995747
+  name "Yellow"
+}
+DEF BLUE_GOAL KidGoal {
+  translation -4.5 0 0
+  rotation 0 0 1 -1.5707996938995747
+  name "Blue"
+}
+KidSoccerField {
+}
+Walls {
+}
+DEF BALL BallGPS {
+  translation 0 0 0.07
+  radius 0.07
+  controller "<none>"
+}
+Robot {
+  supervisor TRUE
+}
+DEF Ashkan MRL-HSL {
+  hidden position_0_0 -1.5481186183834047e-08
+  hidden position_0_1 -0.0011101771693580176
+  hidden position_0_2 0.001110174328567314
+  hidden position_0_3 -5.972843997170685e-08
+  hidden position_0_4 5.954019296153005e-08
+  hidden position_7_0 1.068993517299566e-08
+  hidden rotation_10 0 -1 -4.703594913086343e-10 0.0011101771668178889
+  hidden position_10_0 0.0030513600752491363
+  hidden rotation_11 0.9999999999999999 0 0 0.003051360075235857
+  hidden position_11_0 0.8831730740400425
+  hidden rotation_12 0 1 0 0.8831730740400423
+  hidden position_12_0 -0.8991242780870605
+  hidden rotation_13 0 -1 0 0.8991242780870607
+  hidden position_13_0 -0.36501866498131375
+  hidden rotation_14 0 1 0 0.3650186649813132
+  hidden position_14_0 0.0032507831812892875
+  hidden rotation_15 -1 0 0 0.0032507831812232384
+  hidden rotation_16 -2.8611485901033316e-19 1 -3.815499580304967e-11 0.0011101743286968868
+  hidden position_16_0 0.0030513574642641417
+  hidden rotation_17 -1 0 0 0.003051357464279848
+  hidden position_17_0 -0.8831730864893013
+  hidden rotation_18 0 1 0 0.8831730864893014
+  hidden position_18_0 0.8991242739621659
+  hidden rotation_19 0 -1 0 0.899124273962166
+  hidden position_19_0 0.3650186684090736
+  hidden rotation_20 0 1 0 0.3650186684090739
+  hidden position_20_0 -0.0032507867348083863
+  hidden rotation_21 1 0 0 0.003250786734856546
+  hidden rotation_22 -0.9999979127970183 0.0020431352395092915 -6.617655225754761e-24 5.960464477539063e-08
+  hidden position_22_0 -1.2909562344718982e-07
+  hidden translation_23 0 5.393615147623567e-09 -0.02088999999999956
+  hidden rotation_23 1 0 0 1.2990531157078367e-07
+  hidden position_23_0 1.5707999777766941
+  hidden rotation_24 0 1 0 2.9802322387695313e-08
+  hidden rotation_25 -0.9999994331098526 -0.0010647910468181711 0 5.960464477539063e-08
+  hidden position_25_0 7.268637594739283e-08
+  hidden rotation_26 -1 0 0 7.300048299977715e-08
+  hidden position_26_0 -1.570799977776694
+  hidden rotation_27 0 1 0 2.9802322387695313e-08
+  translation -1.8683260524559258 2.0014793051432513 0.4113161248053281
+  rotation 0.1710878697460355 -0.1710878697460355 0.9702875252478139 1.6009545877878544
+  controller "<extern>"
+}

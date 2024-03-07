@@ -1,0 +1,67 @@
+# VRML_SIM R2022a utf8
+# 2009 RoboCup Standard Platform League Official Field
+# Author: Çetin Meriçli <cetin.mericli@boun.edu.tr>
+# on behalf of SPL TC and OC <spl_tech@tzi.de>,<spl_orga@tzi.de>
+# Modified:
+#   Yvan Bourquin, Olivier Michel - www.cyberbotics.com
+#   June 30, 2010 - Changed boundingObject into a Plane
+#
+# March 7, 2024: Update to VRML_SIM R2023b and test, by Soheil Khatibi
+
+PROTO KidSoccerField [
+  field SFVec3f translation 0 0 0
+  field SFRotation rotation 0 1 0 0
+  field SFColor color 1 1 1
+  field SFBool locked TRUE
+  field SFString contactMaterial "grass"
+]
+{
+Solid {
+  translation IS translation
+  rotation IS rotation
+  children [
+    Shape {
+      appearance DEF GREEN_APPEARANCE Appearance {
+        material Material {
+          diffuseColor IS color
+        }
+        texture ImageTexture {
+          url [
+            "textures/kid_field.jpg"
+          ]
+        }
+      }
+      geometry IndexedFaceSet {
+        coord DEF QUATER_COORDS Coordinate {
+          point [
+            -5.2 -3.7 0.0
+            5.2 -3.7 0.0
+            5.2 3.7 0.0
+            -5.2 3.7 0.0
+          ]
+        }
+        texCoord TextureCoordinate {
+          point [
+            0 0
+            1 0
+            1 1
+            0 1
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, -1
+        ]
+        texCoordIndex [
+          0, 1, 2, 3, -1
+        ]
+      }
+    }
+  ]
+  contactMaterial IS contactMaterial
+  boundingObject Plane {
+    size 10.4 7.4
+  }
+
+  locked IS locked
+}
+}
