@@ -1,6 +1,6 @@
 #VRML_SIM R2023b utf8
 
-EXTERNPROTO "../protos/MRL-HSL.proto"
+EXTERNPROTO "../protos/MRL-HSL/MRL-HSL.proto"
 EXTERNPROTO "../protos/BallGPS.proto"
 EXTERNPROTO "../protos/KidGoal.proto"
 EXTERNPROTO "../protos/KidSoccerField.proto"
