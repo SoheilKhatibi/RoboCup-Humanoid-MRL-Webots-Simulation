@@ -20,23 +20,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Rules_2019.png" alt="Preview" width="500" height="500">
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+  <h3 align="center">RoboCup-Humanoid-MRL-Webots-Simulation</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -80,11 +66,37 @@ The project is built using Webots.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Getting Started
+# Getting Started (Optional)
+
+In order to get started with this simulated environment, you can optionally learn more about the following:
+- RoboCup Humanoid Soccer League Rules, 2019 Edition. ([Link]())
+- Webots Simulation. ([Link]())
+
+# Prerequisites
+To run this simulated environment, you need to install:
+- [Webots](https://cyberbotics.com/) R2023b. ([Instructions](https://www.cyberbotics.com/doc/guide/installing-webots))
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Usage
+
+After installing Webots R2023b, You can open this environment as follows:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simulation.git
+   ```
+2. Open the environment using Webots GUI, or Command line.
+
+Webots GUI:
+- Run Webots.
+- File > Open World...
+- Select the world file int the cloned repository.
+
+Command line:
+```sh
+/path/to/webots /path/to/word/file.wbt
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
