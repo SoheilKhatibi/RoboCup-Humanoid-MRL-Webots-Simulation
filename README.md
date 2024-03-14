@@ -70,9 +70,13 @@
 # Introduction
 This is the [Webots](https://cyberbotics.com/) simulation of the [RoboCup](https://www.robocup.org/) 2019 [Humanoid Soccer League](https://humanoid.robocup.org/) Kid-Size Environment.
 
-Also, hereby, [MRL-HSL](https://sites.google.com/view/mrl-hsl) Robot, 2019 version, is open-sourced. (done by Hamed Mahmudi) Just note that this robot simulation is done by modifying the Webots Robotis OP2 proto file. Also, The simulated file includes minor inaccuracies and problems that are to be resolved.
+Also, hereby, [MRL-HSL](https://sites.google.com/view/mrl-hsl) Robot, 2019 version, is open-sourced. (done by Hamed Mahmudi)
 
 ### Built With
+
+The project is built using Webots.
+- The world and proto files are actually the developed versions of the files used in previous versions of [Webots](https://cyberbotics.com/).
+- Regarding the MRL-HSL simulated robot, just note that this robot simulation is done by modifying the [Webots Robotis OP2](https://www.cyberbotics.com/doc/guide/robotis-op2?version=cyberbotics:R2019a-rev1) proto file. Also, The simulated file includes minor inaccuracies and problems that are to be resolved.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,8 +111,8 @@ Project Link: [https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simu
 
 Special Thanks to:
 
-* [Hamed Mahmudi](https://sites.google.com/view/mrl-hsl/members/hamed-mahmudi) for designing and simulating MRL-HSL robot v2019
-* [Meisam Teimouri](https://www.linkedin.com/in/meisam-teimouri-070131222) for contributing in the project
+* [Hamed Mahmudi](https://www.linkedin.com/in/hamedmahmudi/) for designing and simulating MRL-HSL robot v2019
+* [Meisam Teimouri](https://www.linkedin.com/in/meisam-teimouri-070131222/) for contributing in the project
 
 
 
