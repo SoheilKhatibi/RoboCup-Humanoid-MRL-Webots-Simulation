@@ -96,7 +96,7 @@ Also, hereby, [MRL-HSL](https://sites.google.com/view/mrl-hsl) Robot, 2019 versi
 
 Your Name - [Soheil Khatibi](https://www.linkedin.com/in/soheilkhatibi/) - soheilkhatibi1377@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simulation](https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simulation)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
