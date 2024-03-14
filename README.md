@@ -86,12 +86,15 @@ Also, hereby, [MRL-HSL](https://sites.google.com/view/mrl-hsl) Robot, 2019 versi
 
 # References
 
+- For ball texture, The texture of World Cup 2010 was used, by David Swart. ([Link](https://www.flickr.com/photos/dmswart/4690051366/in/photostream/))
+- This ReadMe is created using [this](https://github.com/othneildrew/Best-README-Template) useful template, by [othneildrew](https://github.com/othneildrew).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 # Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [Soheil Khatibi](https://www.linkedin.com/in/soheilkhatibi/) - soheilkhatibi1377@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -102,16 +105,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 # Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Special Thanks to:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Hamed Mahmudi](https://sites.google.com/view/mrl-hsl/members/hamed-mahmudi) for designing and simulating MRL-HSL robot v2019
+* [Meisam Teimouri](https://www.linkedin.com/in/meisam-teimouri-070131222) for contributing in the project
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
