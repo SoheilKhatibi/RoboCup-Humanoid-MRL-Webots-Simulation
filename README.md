@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/Rules_2019.png" alt="Preview" width="500" height="500">
+    <img src="worlds/Rules_2019.png" alt="Preview" width="1051" height="500">
   </a>
   <h3 align="center">RoboCup-Humanoid-MRL-Webots-Simulation</h3>
 </div>
@@ -66,7 +66,8 @@ The project is built using Webots.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Getting Started (Optional)
+# Getting Started
+(Optional)
 
 In order to get started with this simulated environment, you can optionally learn more about the following:
 - RoboCup Humanoid Soccer League Rules, 2019 Edition. ([Link]())
@@ -102,8 +103,9 @@ Command line:
 
 # References
 
-- For ball texture, The texture of World Cup 2010 was used, by David Swart. ([Link](https://www.flickr.com/photos/dmswart/4690051366/in/photostream/))
+- For ball texture, The texture of World Cup 2010 ball was used, by David Swart. ([Link](https://www.flickr.com/photos/dmswart/4690051366/in/photostream/))
 - This ReadMe is created using [this](https://github.com/othneildrew/Best-README-Template) useful template, by [othneildrew](https://github.com/othneildrew).
+- An old Logo of [Webots](https://cyberbotics.com/) was used in the texture of the walls.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
