@@ -96,7 +96,7 @@ Webots GUI:
 
 Command line:
 ```sh
-/path/to/webots /path/to/word/file.wbt
+/path/to/webots /path/to/world/file.wbt
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
