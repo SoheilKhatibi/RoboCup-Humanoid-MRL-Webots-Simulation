@@ -112,7 +112,7 @@ Command line:
 <!-- CONTACT -->
 # Contact
 
-Your Name - [Soheil Khatibi](https://www.linkedin.com/in/soheilkhatibi/) - soheilkhatibi1377@gmail.com
+Soheil Khatibi - [Soheil Khatibi](https://www.linkedin.com/in/soheilkhatibi/) - soheilkhatibi1377@gmail.com
 
 Project Link: [https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simulation](https://github.com/SoheilKhatibi/RoboCup-Humanoid-MRL-Webots-Simulation)
 
