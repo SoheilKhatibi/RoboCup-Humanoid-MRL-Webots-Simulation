@@ -70,8 +70,8 @@ The project is built using Webots.
 (Optional)
 
 In order to get started with this simulated environment, you can optionally learn more about the following:
-- RoboCup Humanoid Soccer League Rules, 2019 Edition. ([Link]())
-- Webots Simulation. ([Link]())
+- RoboCup Humanoid Soccer League Rules, 2019 Edition. ([Link](https://humanoid.robocup.org/wp-content/uploads/RCHL-2019-Rules-final.pdf))
+- Webots Simulation. ([Link](https://cyberbotics.com/))
 
 # Prerequisites
 To run this simulated environment, you need to install:
