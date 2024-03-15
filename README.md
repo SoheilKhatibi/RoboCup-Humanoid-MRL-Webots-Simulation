@@ -62,7 +62,7 @@ Also, hereby, [MRL-HSL](https://sites.google.com/view/mrl-hsl) Robot, 2019 versi
 
 The project is built using Webots.
 - The world and proto files are actually the developed versions of the files used in previous versions of [Webots](https://cyberbotics.com/).
-- Regarding the MRL-HSL simulated robot, just note that this robot simulation is done by modifying the [Webots Robotis OP2](https://www.cyberbotics.com/doc/guide/robotis-op2?version=cyberbotics:R2019a-rev1) proto file. Also, The simulated file includes minor inaccuracies and problems that are to be resolved.
+- Regarding the MRL-HSL simulated robot, just note that this robot simulation is done by modifying the [Webots Robotis OP2](https://www.cyberbotics.com/doc/guide/robotis-op2?version=cyberbotics:R2019a-rev1) proto file. Also, the simulated file includes minor inaccuracies and problems that are to be resolved.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
